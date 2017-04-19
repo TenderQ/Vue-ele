@@ -54,11 +54,11 @@
                         </div>
                     </div>
                     <div class="detail-close">
-                        <i class="icon-close"  @click="hideDetail"></ul>
+                        <i class="icon-close"  @click="hideDetail"></i>
                     </div>
                 </div>
-            </div>
-        </transition>
+            </transition>
+        </div>
         <div class="bulletin-wrapper" @click="showDetail">
             <span class="title"></span><span class="text">{{seller.bulletin}}</span><i class="icon-keyboard_arrow_right"></i>    
         </div>
